@@ -1,1 +1,90 @@
-shop
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AksesShop - Оптовый Интернет-Магазин</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AksesShop</h1>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Каталог</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </nav>
+    <div class="banner">
+        <h2>Добро пожаловать в AksesShop!</h2>
+    </div>
+    <div class="products">
+        <div class="product">
+            <h3>Товар 1</h3>
+            <p>Описание товара 1</p>
+            <p>Цена: 1000 руб.</p>
+        </div>
+        <div class="product">
+            <h3>Товар 2</h3>
+            <p>Описание товара 2</p>
+            <p>Цена: 1500 руб.</p>
+        </div>
+        <!-- Добавьте больше товаров по аналогии -->
+    </div>
+    <footer>
+        <p>&copy; 2023 AksesShop. Все права защищены.</p>
+    </footer>
+</body>
+</html>
